@@ -23,7 +23,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 200px;
+    padding: 30px 140px;
+    /* border: 2px solid blue; */
     
 }
 
@@ -109,6 +110,11 @@
 
 }
 
+#myMeetings {
+    font-weight: bold;
+    
+}
+
 #upComingMeetings {
     margin-left: 15px;
 }
@@ -151,27 +157,36 @@
 /* Meeting Container */
 
 #myMeetingsContainer {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: auto;
+    flex-wrap: wrap;
+    display: flex;
     
 }
 
 /* Tile */
 .tile {
     margin: 40px;
-    border:  1px solid black;
+    /* border:  1px solid black;
+     */
+     box-shadow: 0px 12px 40px -13px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 12px 40px -13px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
     border-radius: 5px;
     width: 350px;
     height: 200px;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    
+    border: 4px solid white;
+    border-top-color: mediumslateblue;
     
 }
 
+
+
 .top-area-tile {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -192,10 +207,23 @@
 .viewUpcomingMeeting {
     color: dodgerblue;
     font-size: 14px;
+    cursor: pointer;
+    padding-bottom: 5px
+    
 }
+.viewUpcomingMeeting:hover {
+    color: rgb(0, 128, 255);
+    text-decoration: underline;
+;}
+
+
+.copyLinkBtn:hover {
+    color: rgb(0, 128, 255);
+    text-decoration: underline;
+;}
 
 .bottom-area-tile {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 
@@ -203,6 +231,7 @@
 
 .copyLinkBtn {
     color: dodgerblue;
+    font-size: 14px;
     padding: 5px;
     cursor: pointer;
 }
@@ -220,14 +249,14 @@
     height: 36px;
     line-height: 34px;
     font-size: 14px;
+    border-radius: 5px;
     color: #241c15;
-    background-color: #efeeea;
+    background-color: #e4e3e3;
     transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
     padding: 0 18px;
     
 
 }
-.shareBtn :hover {
-        color: #241c15;
-        background-color: #d9d7cd;
+.shareBtn:hover {
+        background-color: #bababa;
     }
