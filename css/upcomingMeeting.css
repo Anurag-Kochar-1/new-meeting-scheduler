@@ -1,7 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
     
 }
 
@@ -149,7 +155,6 @@
 }
 
 .createBtn:hover{
-        /* color: white; */
         background: rgba(0,118,255,0.9);
         box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
     }
@@ -165,108 +170,18 @@
     
 }
 
-/* Tile */
-.tile {
-    margin: 40px;
-    /* border:  1px solid black;
-     */
-     box-shadow: 0px 12px 40px -13px rgba(0, 0, 0, 0.5);
--webkit-box-shadow: 0px 12px 40px -13px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    border-radius: 5px;
-    width: 350px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border: 4px solid white;
-    border-top-color: mediumslateblue;
-    
-}
-
-
-
-.top-area-tile {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
-
-}
-
-.agenda {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.tile-description {
-    color: rgb(43, 43, 43);
-    color: 17px ;
-}
-
-.viewUpcomingMeeting {
-    color: dodgerblue;
-    font-size: 14px;
-    cursor: pointer;
-    padding-bottom: 5px
-    
-}
-.viewUpcomingMeeting:hover {
-    color: rgb(0, 128, 255);
-    text-decoration: underline;
-;}
-
-
-.copyLinkBtn:hover {
-    color: rgb(0, 128, 255);
-    text-decoration: underline;
-;}
-
-.bottom-area-tile {
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.copyLinkBtn {
-    color: dodgerblue;
-    font-size: 14px;
-    padding: 5px;
-    cursor: pointer;
-}
-
-
-.shareBtn {
-
-    
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-weight: 500;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    height: 36px;
-    line-height: 34px;
-    font-size: 14px;
-    border-radius: 5px;
-    color: #241c15;
-    background-color: #e4e3e3;
-    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
-    padding: 0 18px;
-    
-
-}
-.shareBtn:hover {
-        background-color: #bababa;
-}
-
-
 #upComingMeetings a {
     text-decoration: none;
     color: rgb(28, 28, 28); ;
 }
+
+
+
+#myMeetings a {
+    text-decoration: none;
+    color: rgb(28, 28, 28); ;
+}
+
 
 
 .createBtn a {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build your own Meeting Link</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/createNewLink.css">
+</head>
+<body>
+    <div class="createNewLinkContainer">
+        <div id="topBar">
+            <i class="handshakeIcon fa-regular fa-handshake "></i>
+            <h3>Create your Meeting Link</h3>
+            <a href="./dashboard.html"><i class="fa-solid fa-xmark crossIcon"> </i></a>
+        </div>
+
+        <div id="main-creating-link-container">
+            <div id="calendar"> </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/76555bc776.js" crossorigin="anonymous"></script>
+    <script>
+        <div id="calendar"></div>
+            
+            mobiscroll.datepicker('#calendar', {
+                controls: ['calendar'],
+                selectMultiple: true
+            });
+                </script>
+</body>
+</html>
