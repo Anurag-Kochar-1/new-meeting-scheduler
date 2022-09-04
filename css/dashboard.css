@@ -189,9 +189,14 @@
     
 }
 
-.tile:hover{
+/* .tile:hover{
     border-top-color: dodgerblue;
+} */
+
+.tile:hover {
+    box-shadow: -10px 8px 0px rgb(196 181 253);
 }
+
 
 
 
