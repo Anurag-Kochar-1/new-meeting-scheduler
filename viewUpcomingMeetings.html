@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Upcoming Meeting</title>
+    <link rel="stylesheet" href="./css/viewUpcomingMeetings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="viewUpcomingMeetingsContainer">
+        <div id="upcomingMeeting">
+
+            <div id="headerContainer">
+                <h2 class="meetingNameHeading"> {Meeting Name, Date} </h2>
+                <div class="headerBtns">
+                    <button class="closeBtn"> <a href="./dashboard.html"> Cancel </a> </button>
+                    <button class="editBtn"> <a href="./dashboard.html"> Close </a> </button>
+                </div>
+            </div>
+
+
+            <div id="allUpcomingMeetingDetailsContainer">
+
+                <form>
+                    <div id="meetingNameContainer" class="divStyle">
+                        <label for="AttendeeName" class="labelStyle"> Attendee Name</label>
+                        <h3 id="AttendeeName"> {Attendee Name} </h3>
+                    </div>
+    
+                    <div id="attendeeEmailContainer"  class="divStyle">
+                        <label for="attendeeEmail" class="labelStyle"> Attendee Email  </label>
+                        <h3 id="attendeeEmail"> {Attendee Email} </h3>
+                    </div>
+    
+            
+
+                    <div id="pickedDateAndTimeSlotContainer" class="divStyle">
+                        <label for="pickedDateAndTimeSlo"  class="labelStyle">Meeting Date and Time </label>
+                        <h3 id="pickedDateAndTimeSlo"> {Meeting Time and Date} </h3>
+                    </div>
+
+                    
+    
+    
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Meetings</title>
+    <link rel="stylesheet" href="./css/upcomingMeeting.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+</head>
+<body>
+     
+    <div class="dashboard-container">
+
+        <!-- Top Bar -->
+        <div id="top-bar">
+            <div id="first-section">
+                <img src="https://logodix.com/logo/1292210.jpg" alt="logo" id="navbar-logo">
+            </div>
+
+            <div id="second-section">
+                <ul>
+                    <li>Home</li>
+                    <li id="logOut" > log out </li>
+                </ul>
+            </div>
+                
+            
+        </div>
+
+        <!-- Second Bar -->
+        <div id="second-bar">
+            <div id="first-Section-second-bar">
+                <h3 class="second-bar-heading">My Scheduler</h3>
+                <button class="createBtn"> <a href="./createNewLink.html">Create</a> </button>
+            </div>
+
+
+            <div id="second-bar-second-bar">
+                <p id="myMeetings"><a href="./dashboard.html"> My Meetings</a></p>
+                <p id="upComingMeetings"> <a href="./upcomingMeeting.html"> Upcoming Meetings</a> </h5>
+            </div>
+        </div>
+
+
+
+        <div id="upcomingMeetingsContainer">
+            <div id="topBarOfUpcomingMeetings">
+                <p> {All Upcoming Meetings} </p>     
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Filter
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Only Upcoming Meetings</a></li>
+                    <li><a class="dropdown-item" href="#">Pending Meetings</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div id="upcomingMeetingRow-Container">
+
+                <div id="upComingMeetingRow-Tile">
+                        <div class="avatar"></div>
+                        <p class="upcomingMeetingTiming"> {09:00am - 09:30am} </p>
+                        <div class="attendeeContainer">
+                            <p class="attendeeName"> {Attendee name} </p>
+                            <p class="attendeeMeetingName"> {Chill session} </p>
+                        </div>
+                        <button class="btn btn-secondary btn-sm viewDetailsBtn" > <a href="./viewUpcomingMeetings.html">View Details</a> </button>
+                </div>
+
+                <div id="upComingMeetingRow-Tile">
+                    <div class="avatar"></div>
+                    <p class="upcomingMeetingTiming"> {09:00am - 09:30am} </p>
+                    <div class="attendeeContainer">
+                        <p class="attendeeName"> {Attendee name} </p>
+                        <p class="attendeeMeetingName"> {Chill session} </p>
+                    </div>
+                    <button class="btn btn-secondary btn-sm viewDetailsBtn"> <a href="./viewUpcomingMeetings.html">View Details</a> </button>
+            </div>
+
+            <div id="upComingMeetingRow-Tile">
+                <div class="avatar"></div>
+                <p class="upcomingMeetingTiming"> {09:00am - 09:30am} </p>
+                <div class="attendeeContainer">
+                    <p class="attendeeName"> {Attendee name} </p>
+                    <p class="attendeeMeetingName"> {Chill session} </p>
+                </div>
+                <button class="btn btn-secondary btn-sm viewDetailsBtn" > <a href="./viewUpcomingMeetings.html">View Details</a> </button>
+        </div>
+       
+                <!-- </div> -->
+            </div>
+
+
+            
+            
+        </div>
+
+     </div>
+
+
+
+     
+        
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+      "></script>
+      <script src="https://kit.fontawesome.com/76555bc776.js" crossorigin="anonymous"></script>
+</body>
+</html>

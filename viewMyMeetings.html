@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetings</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/viewMyMeetings.css">
+
+</head>
+<body>
+
+    <div id="myMeetingsContainer">
+        <div id="view-meeting-container">
+
+            <div id="headerContainer">
+                <h2 class="meetingNameHeading"> {Meeting Name} </h2>
+                <div class="headerBtns">
+                    <button class="closeBtn"> <a href="./dashboard.html">Close</a> </button>
+                    <button class="editBtn"> Edit </button>
+                </div>
+            </div>
+
+            <div id="allMeetingDetailsContainer">
+                <form>
+                    <div id="meetingNameContainer">
+                        <label for="meetingName" class="labelStyle"> Meeting Name</label>
+                        <h3 id="meetingName"> {Meeting Name} </h3>
+                        
+                    </div>
+    
+                    <div id="meetingLocationContainer" >
+                        <label for="meetingLocation" class="labelStyle"> Meeting Location </label>
+                        <h3 id="meetingLocation"> {Meeting Location} </h3>
+                    </div>
+    
+            
+    
+    
+                    <div id="meetingDaysContainer">
+                        <label for="meetingDays"  class="labelStyle">Total number of Meeting Days </label>
+                        <h3 id="meetingDays"> {Meeting Days and {x times a Day}} </h3>
+                        <div class="meetingDaysContainer"> </div>
+                    </div>
+    
+    
+                </form>
+            </div>
+        </div>
+    </div>
+   
+
+    
+
+</body>
+</html>
